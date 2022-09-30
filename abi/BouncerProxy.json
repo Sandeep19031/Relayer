@@ -1,0 +1,332 @@
+{
+  "address": "0x1265B922fbe370B26899CE439528b069aD1fF0f4",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "bytes",
+          "name": "sig",
+          "type": "bytes"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "signer",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "destination",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "rewardToken",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "rewardAmount",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "bytes32",
+          "name": "_hash",
+          "type": "bytes32"
+        }
+      ],
+      "name": "Forwarded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "_account",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "bool",
+          "name": "_value",
+          "type": "bool"
+        }
+      ],
+      "name": "UpdateWhitelist",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes",
+          "name": "sig",
+          "type": "bytes"
+        },
+        {
+          "internalType": "address",
+          "name": "signer",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "destination",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        },
+        {
+          "internalType": "address",
+          "name": "rewardToken",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "rewardAmount",
+          "type": "uint256"
+        }
+      ],
+      "name": "forward",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "signer",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "destination",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        },
+        {
+          "internalType": "address",
+          "name": "rewardToken",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "rewardAmount",
+          "type": "uint256"
+        }
+      ],
+      "name": "getHash",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "nonce",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_account",
+          "type": "address"
+        },
+        {
+          "internalType": "bool",
+          "name": "_value",
+          "type": "bool"
+        }
+      ],
+      "name": "updateWhitelist",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "whitelist",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x9448ca45504302861e2d9d3c06bfd1754942671bafa02c53212657e4af585bae",
+  "receipt": {
+    "to": null,
+    "from": "0xffd3452eFa0eda06F8F1F7e2442C3E075905AE3e",
+    "contractAddress": "0x1265B922fbe370B26899CE439528b069aD1fF0f4",
+    "transactionIndex": 45,
+    "gasUsed": "739263",
+    "logsBloom": "0x00000000000000020000000000000000000000000000000000000000000000000004000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000800000000000000000000100000000000000000000000000000000000000000000000000000000000080000100000000000000000000000000000000000000000000000000000000000000000000000000200000000000000020000000000000000001000000000000000400000000004000000000000000000001000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000",
+    "blockHash": "0xfcfef8154ee7b8148231eb61e4220dd2bea609f304644a5da0adc095fb91cb66",
+    "transactionHash": "0x9448ca45504302861e2d9d3c06bfd1754942671bafa02c53212657e4af585bae",
+    "logs": [
+      {
+        "transactionIndex": 45,
+        "blockNumber": 28356856,
+        "transactionHash": "0x9448ca45504302861e2d9d3c06bfd1754942671bafa02c53212657e4af585bae",
+        "address": "0x0000000000000000000000000000000000001010",
+        "topics": [
+          "0x4dfe1bbbcf077ddc3e01291eea2d5c70c2b422b415d95645b9adcfd678cb1d63",
+          "0x0000000000000000000000000000000000000000000000000000000000001010",
+          "0x000000000000000000000000ffd3452efa0eda06f8f1f7e2442c3e075905ae3e",
+          "0x000000000000000000000000c26880a0af2ea0c7e8130e6ec47af756465452e8"
+        ],
+        "data": "0x000000000000000000000000000000000000000000000000000690e3b346c7000000000000000000000000000000000000000000000000000305c8cc6df333140000000000000000000000000000000000000000000015d4e554d55e721981d900000000000000000000000000000000000000000000000002ff37e8baac6c140000000000000000000000000000000000000000000015d4e55b6642256048d9",
+        "logIndex": 221,
+        "blockHash": "0xfcfef8154ee7b8148231eb61e4220dd2bea609f304644a5da0adc095fb91cb66"
+      }
+    ],
+    "blockNumber": 28356856,
+    "cumulativeGasUsed": "9509817",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "d65fc274e1a2b89810a295beb540beb0",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"sig\",\"type\":\"bytes\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"signer\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"destination\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"rewardToken\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"rewardAmount\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"bytes32\",\"name\":\"_hash\",\"type\":\"bytes32\"}],\"name\":\"Forwarded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"_account\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"bool\",\"name\":\"_value\",\"type\":\"bool\"}],\"name\":\"UpdateWhitelist\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"bytes\",\"name\":\"sig\",\"type\":\"bytes\"},{\"internalType\":\"address\",\"name\":\"signer\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"destination\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"},{\"internalType\":\"address\",\"name\":\"rewardToken\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"rewardAmount\",\"type\":\"uint256\"}],\"name\":\"forward\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"signer\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"destination\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"},{\"internalType\":\"address\",\"name\":\"rewardToken\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"rewardAmount\",\"type\":\"uint256\"}],\"name\":\"getHash\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"nonce\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_account\",\"type\":\"address\"},{\"internalType\":\"bool\",\"name\":\"_value\",\"type\":\"bool\"}],\"name\":\"updateWhitelist\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"whitelist\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/BouncerProxy.sol\":\"BouncerProxy\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/BouncerProxy.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\r\\npragma solidity >=0.4.22 <0.9.0;\\r\\n\\r\\n/*\\r\\n  Bouncer identity proxy that executes meta transactions for etherless accounts.\\r\\n\\r\\n  Purpose:\\r\\n  I wanted a way for etherless accounts to transact with the blockchain through an identity proxy without paying gas.\\r\\n  I'm sure there are many examples of something like this already deployed that work a lot better, this is just me learning.\\r\\n    (I would love feedback: https://twitter.com/austingriffith)\\r\\n\\r\\n  1) An etherless account crafts a meta transaction and signs it\\r\\n  2) A (properly incentivized) relay account submits the transaction to the BouncerProxy and pays the gas\\r\\n  3) If the meta transaction is valid AND the etherless account is a valid 'Bouncer', the transaction is executed\\r\\n      (and the sender is paid in arbitrary tokens from the signer)\\r\\n\\r\\n  Inspired by:\\r\\n    @avsa - https://www.youtube.com/watch?v=qF2lhJzngto found this later: https://github.com/status-im/contracts/blob/73-economic-abstraction/contracts/identity/IdentityGasRelay.sol\\r\\n    @mattgcondon - https://twitter.com/mattgcondon/status/1022287545139449856 && https://twitter.com/mattgcondon/status/1021984009428107264\\r\\n    @owocki - https://twitter.com/owocki/status/1021859962882908160\\r\\n    @danfinlay - https://twitter.com/danfinlay/status/1022271384938983424\\r\\n    @PhABCD - https://twitter.com/PhABCD/status/1021974772786319361\\r\\n    gnosis-safe\\r\\n    uport-identity\\r\\n\\r\\n*/\\r\\n\\r\\n//use case 1:\\r\\n//you deploy the bouncer proxy and use it as a standard identity for your own etherless accounts\\r\\n//  (multiple devices you don't want to store eth on or move private keys to will need to be added as Bouncers)\\r\\n//you run your own relayer and the rewardToken is 0\\r\\n\\r\\n//use case 2:\\r\\n//you deploy the bouncer proxy and use it as a standard identity for your own etherless accounts\\r\\n//  (multiple devices you don't want to store eth on or move private keys to will need to be added as Bouncers)\\r\\n//  a community if relayers are incentivized by the rewardToken to pay the gas to run your transactions for you\\r\\n//SEE: universal logins via @avsa\\r\\n\\r\\n//use case 3:\\r\\n//you deploy the bouncer proxy and use it to let third parties submit transactions as a standard identity\\r\\n//  (multiple developer accounts will need to be added as Bouncers to 'whitelist' them to make meta transactions)\\r\\n//you run your own relayer and pay for all of their transactions, revoking any bad actors if needed\\r\\n//SEE: GitCoin (via @owocki) wants to pay for some of the initial transactions of their Developers to lower the barrier to entry\\r\\n\\r\\n//use case 4:\\r\\n//you deploy the bouncer proxy and use it to let third parties submit transactions as a standard identity\\r\\n//  (multiple developer accounts will need to be added as Bouncers to 'whitelist' them to make meta transactions)\\r\\n//you run your own relayer and pay for all of their transactions, revoking any bad actors if needed\\r\\n\\r\\ncontract BouncerProxy {\\r\\n    //whitelist the deployer so they can whitelist others\\r\\n    constructor() {\\r\\n        whitelist[msg.sender] = true;\\r\\n    }\\r\\n\\r\\n    //to avoid replay\\r\\n    mapping(address => uint256) public nonce;\\r\\n    // allow for third party metatx account to make transactions through this\\r\\n    // contract like an identity but make sure the owner has whitelisted the tx\\r\\n    mapping(address => bool) public whitelist;\\r\\n    event UpdateWhitelist(address _account, bool _value);\\r\\n\\r\\n    function updateWhitelist(address _account, bool _value)\\r\\n        public\\r\\n        returns (bool)\\r\\n    {\\r\\n        require(\\r\\n            whitelist[msg.sender],\\r\\n            \\\"BouncerProxy::updateWhitelist Account Not Whitelisted\\\"\\r\\n        );\\r\\n        whitelist[_account] = _value;\\r\\n        emit UpdateWhitelist(_account, _value);\\r\\n        return true;\\r\\n    }\\r\\n\\r\\n    // copied from https://github.com/uport-project/uport-identity/blob/develop/contracts/Proxy.sol\\r\\n    //   function () public payable { emit Received(msg.sender, msg.value); }\\r\\n    //   event Received (address indexed sender, uint value);\\r\\n\\r\\n    function getHash(\\r\\n        address signer,\\r\\n        address destination,\\r\\n        uint256 value,\\r\\n        bytes memory data,\\r\\n        address rewardToken,\\r\\n        uint256 rewardAmount\\r\\n    ) public view returns (bytes32) {\\r\\n        return\\r\\n            keccak256(\\r\\n                abi.encodePacked(\\r\\n                    address(this),\\r\\n                    signer,\\r\\n                    destination,\\r\\n                    value,\\r\\n                    data,\\r\\n                    rewardToken,\\r\\n                    rewardAmount,\\r\\n                    nonce[signer]\\r\\n                )\\r\\n            );\\r\\n    }\\r\\n\\r\\n    // original forward function copied from https://github.com/uport-project/uport-identity/blob/develop/contracts/Proxy.sol\\r\\n    function forward(\\r\\n        bytes memory sig,\\r\\n        address signer,\\r\\n        address destination,\\r\\n        uint256 value,\\r\\n        bytes memory data,\\r\\n        address rewardToken,\\r\\n        uint256 rewardAmount\\r\\n    ) public {\\r\\n        //the hash contains all of the information about the meta transaction to be called\\r\\n        bytes32 _hash = getHash(\\r\\n            signer,\\r\\n            destination,\\r\\n            value,\\r\\n            data,\\r\\n            rewardToken,\\r\\n            rewardAmount\\r\\n        );\\r\\n        //increment the hash so this tx can't run again\\r\\n        nonce[signer]++;\\r\\n        //this makes sure signer signed correctly AND signer is a valid bouncer\\r\\n        // require(\\r\\n        //     signerIsWhitelisted(_hash, sig),\\r\\n        //     \\\"BouncerProxy::forward Signer is not whitelisted\\\"\\r\\n        // );\\r\\n        //make sure the signer pays in whatever token (or ether) the sender and signer agreed to\\r\\n        // or skip this if the sender is incentivized in other ways and there is no need for a token\\r\\n        //   if(rewardAmount>0){\\r\\n        //     //Address 0 mean reward with ETH\\r\\n        //     if(rewardToken==address(0)){\\r\\n        //       //REWARD ETHER\\r\\n        //       require(msg.sender.call.value(rewardAmount).gas(36000)());\\r\\n        //     }else{\\r\\n        //       //REWARD TOKEN\\r\\n        //       require((StandardToken(rewardToken)).transfer(msg.sender,rewardAmount));\\r\\n        //     }\\r\\n        //   }\\r\\n        //execute the transaction with all the given parameters\\r\\n        require(executeCall(destination, value, data));\\r\\n        emit Forwarded(\\r\\n            sig,\\r\\n            signer,\\r\\n            destination,\\r\\n            value,\\r\\n            data,\\r\\n            rewardToken,\\r\\n            rewardAmount,\\r\\n            _hash\\r\\n        );\\r\\n    }\\r\\n\\r\\n    // when some frontends see that a tx is made from a bouncerproxy, they may want to parse through these events to find out who the signer was etc\\r\\n    event Forwarded(\\r\\n        bytes sig,\\r\\n        address signer,\\r\\n        address destination,\\r\\n        uint256 value,\\r\\n        bytes data,\\r\\n        address rewardToken,\\r\\n        uint256 rewardAmount,\\r\\n        bytes32 _hash\\r\\n    );\\r\\n\\r\\n    // copied from https://github.com/uport-project/uport-identity/blob/develop/contracts/Proxy.sol\\r\\n    // which was copied from GnosisSafe\\r\\n    // https://github.com/gnosis/gnosis-safe-contracts/blob/master/contracts/GnosisSafe.sol\\r\\n    function executeCall(\\r\\n        address to,\\r\\n        uint256 value,\\r\\n        bytes memory data\\r\\n    ) internal returns (bool success) {\\r\\n        assembly {\\r\\n            success := call(\\r\\n                100000000000,\\r\\n                to,\\r\\n                value,\\r\\n                add(data, 0x20),\\r\\n                mload(data),\\r\\n                0,\\r\\n                0\\r\\n            )\\r\\n        }\\r\\n    }\\r\\n\\r\\n    //borrowed from OpenZeppelin's ESDA stuff:\\r\\n    //https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/cryptography/ECDSA.sol\\r\\n    function signerIsWhitelisted(bytes32 _hash, bytes memory _signature)\\r\\n        internal\\r\\n        view\\r\\n        returns (bool)\\r\\n    {\\r\\n        bytes32 r;\\r\\n        bytes32 s;\\r\\n        uint8 v;\\r\\n        // Check the signature length\\r\\n        if (_signature.length != 65) {\\r\\n            return false;\\r\\n        }\\r\\n        // Divide the signature in r, s and v variables\\r\\n        // ecrecover takes the signature parameters, and the only way to get them\\r\\n        // currently is to use assembly.\\r\\n        // solium-disable-next-line security/no-inline-assembly\\r\\n        assembly {\\r\\n            r := mload(add(_signature, 32))\\r\\n            s := mload(add(_signature, 64))\\r\\n            v := byte(0, mload(add(_signature, 96)))\\r\\n        }\\r\\n        // Version of signature should be 27 or 28, but 0 and 1 are also possible versions\\r\\n        if (v < 27) {\\r\\n            v += 27;\\r\\n        }\\r\\n        // If the version is correct return the signer address\\r\\n        if (v != 27 && v != 28) {\\r\\n            return false;\\r\\n        } else {\\r\\n            // solium-disable-next-line arg-overflow\\r\\n            return\\r\\n                whitelist[\\r\\n                    ecrecover(\\r\\n                        keccak256(\\r\\n                            abi.encodePacked(\\r\\n                                \\\"\\\\x19Ethereum Signed Message:\\\\n32\\\",\\r\\n                                _hash\\r\\n                            )\\r\\n                        ),\\r\\n                        v,\\r\\n                        r,\\r\\n                        s\\r\\n                    )\\r\\n                ];\\r\\n        }\\r\\n    }\\r\\n}\\r\\n\\r\\n// contract StandardToken {\\r\\n//   function transfer(address _to,uint256 _value) public pure returns (bool) { }\\r\\n// }\\r\\n\",\"keccak256\":\"0xb443e995b02150a1265352025cb10e359ecddacbdc413b46cb7a8f33465fbfb4\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060018060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550610c03806100776000396000f3fe608060405234801561001057600080fd5b50600436106100575760003560e01c80630d392cd91461005c5780630ee02d9d1461008c578063622f9730146100bc57806370ae92d2146100d85780639b19251a14610108575b600080fd5b61007660048036038101906100719190610570565b610138565b604051610083919061086b565b60405180910390f35b6100a660048036038101906100a191906104cf565b610260565b6040516100b39190610886565b60405180910390f35b6100d660048036038101906100d191906105ac565b6102e1565b005b6100f260048036038101906100ed91906104a6565b6103aa565b6040516100ff919061094d565b60405180910390f35b610122600480360381019061011d91906104a6565b6103c2565b60405161012f919061086b565b60405180910390f35b6000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff166101c6576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016101bd9061092d565b60405180910390fd5b81600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055507f08b2c0469ecd1d7a21d7e1492f0fc75fc7e8e0fa4fdf4275949c90875f5ebdf5838360405161024e929190610842565b60405180910390a16001905092915050565b6000308787878787876000808f73ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546040516020016102bf9897969594939291906107b4565b6040516020818303038152906040528051906020012090509695505050505050565b60006102f1878787878787610260565b90506000808873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600081548092919061034290610a95565b91905055506103528686866103e2565b61035b57600080fd5b7f6d4a868d9686051f889f61dc96415c0809f248cd6ce33eb543ff445b972084fe88888888888888886040516103989897969594939291906108a1565b60405180910390a15050505050505050565b60006020528060005260406000206000915090505481565b60016020528060005260406000206000915054906101000a900460ff1681565b6000806000835160208501868864174876e800f190509392505050565b600061041261040d84610999565b610968565b90508281526020810184848401111561042a57600080fd5b610435848285610a53565b509392505050565b60008135905061044c81610b88565b92915050565b60008135905061046181610b9f565b92915050565b600082601f83011261047857600080fd5b81356104888482602086016103ff565b91505092915050565b6000813590506104a081610bb6565b92915050565b6000602082840312156104b857600080fd5b60006104c68482850161043d565b91505092915050565b60008060008060008060c087890312156104e857600080fd5b60006104f689828a0161043d565b965050602061050789828a0161043d565b955050604061051889828a01610491565b945050606087013567ffffffffffffffff81111561053557600080fd5b61054189828a01610467565b935050608061055289828a0161043d565b92505060a061056389828a01610491565b9150509295509295509295565b6000806040838503121561058357600080fd5b60006105918582860161043d565b92505060206105a285828601610452565b9150509250929050565b600080600080600080600060e0888a0312156105c757600080fd5b600088013567ffffffffffffffff8111156105e157600080fd5b6105ed8a828b01610467565b97505060206105fe8a828b0161043d565b965050604061060f8a828b0161043d565b95505060606106208a828b01610491565b945050608088013567ffffffffffffffff81111561063d57600080fd5b6106498a828b01610467565b93505060a061065a8a828b0161043d565b92505060c061066b8a828b01610491565b91505092959891949750929550565b61068381610a01565b82525050565b61069a61069582610a01565b610ade565b82525050565b6106a981610a13565b82525050565b6106b881610a1f565b82525050565b60006106c9826109c9565b6106d381856109d4565b93506106e3818560208601610a62565b6106ec81610b6a565b840191505092915050565b6000610702826109c9565b61070c81856109e5565b935061071c818560208601610a62565b80840191505092915050565b60006107356035836109f0565b91507f426f756e63657250726f78793a3a75706461746557686974656c69737420416360008301527f636f756e74204e6f742057686974656c697374656400000000000000000000006020830152604082019050919050565b61079781610a49565b82525050565b6107ae6107a982610a49565b610b02565b82525050565b60006107c0828b610689565b6014820191506107d0828a610689565b6014820191506107e08289610689565b6014820191506107f0828861079d565b60208201915061080082876106f7565b915061080c8286610689565b60148201915061081c828561079d565b60208201915061082c828461079d565b6020820191508190509998505050505050505050565b6000604082019050610857600083018561067a565b61086460208301846106a0565b9392505050565b600060208201905061088060008301846106a0565b92915050565b600060208201905061089b60008301846106af565b92915050565b60006101008201905081810360008301526108bc818b6106be565b90506108cb602083018a61067a565b6108d8604083018961067a565b6108e5606083018861078e565b81810360808301526108f781876106be565b905061090660a083018661067a565b61091360c083018561078e565b61092060e08301846106af565b9998505050505050505050565b6000602082019050818103600083015261094681610728565b9050919050565b6000602082019050610962600083018461078e565b92915050565b6000604051905081810181811067ffffffffffffffff8211171561098f5761098e610b3b565b5b8060405250919050565b600067ffffffffffffffff8211156109b4576109b3610b3b565b5b601f19601f8301169050602081019050919050565b600081519050919050565b600082825260208201905092915050565b600081905092915050565b600082825260208201905092915050565b6000610a0c82610a29565b9050919050565b60008115159050919050565b6000819050919050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000819050919050565b82818337600083830152505050565b60005b83811015610a80578082015181840152602081019050610a65565b83811115610a8f576000848401525b50505050565b6000610aa082610a49565b91507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff821415610ad357610ad2610b0c565b5b600182019050919050565b6000610ae982610af0565b9050919050565b6000610afb82610b7b565b9050919050565b6000819050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b7f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b6000601f19601f8301169050919050565b60008160601b9050919050565b610b9181610a01565b8114610b9c57600080fd5b50565b610ba881610a13565b8114610bb357600080fd5b50565b610bbf81610a49565b8114610bca57600080fd5b5056fea26469706673582212207e0b1d4e9a26f2cc1ce75d502896472ec69b293919c5c84294cd674f1428cac964736f6c63430008000033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100575760003560e01c80630d392cd91461005c5780630ee02d9d1461008c578063622f9730146100bc57806370ae92d2146100d85780639b19251a14610108575b600080fd5b61007660048036038101906100719190610570565b610138565b604051610083919061086b565b60405180910390f35b6100a660048036038101906100a191906104cf565b610260565b6040516100b39190610886565b60405180910390f35b6100d660048036038101906100d191906105ac565b6102e1565b005b6100f260048036038101906100ed91906104a6565b6103aa565b6040516100ff919061094d565b60405180910390f35b610122600480360381019061011d91906104a6565b6103c2565b60405161012f919061086b565b60405180910390f35b6000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff166101c6576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016101bd9061092d565b60405180910390fd5b81600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055507f08b2c0469ecd1d7a21d7e1492f0fc75fc7e8e0fa4fdf4275949c90875f5ebdf5838360405161024e929190610842565b60405180910390a16001905092915050565b6000308787878787876000808f73ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546040516020016102bf9897969594939291906107b4565b6040516020818303038152906040528051906020012090509695505050505050565b60006102f1878787878787610260565b90506000808873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600081548092919061034290610a95565b91905055506103528686866103e2565b61035b57600080fd5b7f6d4a868d9686051f889f61dc96415c0809f248cd6ce33eb543ff445b972084fe88888888888888886040516103989897969594939291906108a1565b60405180910390a15050505050505050565b60006020528060005260406000206000915090505481565b60016020528060005260406000206000915054906101000a900460ff1681565b6000806000835160208501868864174876e800f190509392505050565b600061041261040d84610999565b610968565b90508281526020810184848401111561042a57600080fd5b610435848285610a53565b509392505050565b60008135905061044c81610b88565b92915050565b60008135905061046181610b9f565b92915050565b600082601f83011261047857600080fd5b81356104888482602086016103ff565b91505092915050565b6000813590506104a081610bb6565b92915050565b6000602082840312156104b857600080fd5b60006104c68482850161043d565b91505092915050565b60008060008060008060c087890312156104e857600080fd5b60006104f689828a0161043d565b965050602061050789828a0161043d565b955050604061051889828a01610491565b945050606087013567ffffffffffffffff81111561053557600080fd5b61054189828a01610467565b935050608061055289828a0161043d565b92505060a061056389828a01610491565b9150509295509295509295565b6000806040838503121561058357600080fd5b60006105918582860161043d565b92505060206105a285828601610452565b9150509250929050565b600080600080600080600060e0888a0312156105c757600080fd5b600088013567ffffffffffffffff8111156105e157600080fd5b6105ed8a828b01610467565b97505060206105fe8a828b0161043d565b965050604061060f8a828b0161043d565b95505060606106208a828b01610491565b945050608088013567ffffffffffffffff81111561063d57600080fd5b6106498a828b01610467565b93505060a061065a8a828b0161043d565b92505060c061066b8a828b01610491565b91505092959891949750929550565b61068381610a01565b82525050565b61069a61069582610a01565b610ade565b82525050565b6106a981610a13565b82525050565b6106b881610a1f565b82525050565b60006106c9826109c9565b6106d381856109d4565b93506106e3818560208601610a62565b6106ec81610b6a565b840191505092915050565b6000610702826109c9565b61070c81856109e5565b935061071c818560208601610a62565b80840191505092915050565b60006107356035836109f0565b91507f426f756e63657250726f78793a3a75706461746557686974656c69737420416360008301527f636f756e74204e6f742057686974656c697374656400000000000000000000006020830152604082019050919050565b61079781610a49565b82525050565b6107ae6107a982610a49565b610b02565b82525050565b60006107c0828b610689565b6014820191506107d0828a610689565b6014820191506107e08289610689565b6014820191506107f0828861079d565b60208201915061080082876106f7565b915061080c8286610689565b60148201915061081c828561079d565b60208201915061082c828461079d565b6020820191508190509998505050505050505050565b6000604082019050610857600083018561067a565b61086460208301846106a0565b9392505050565b600060208201905061088060008301846106a0565b92915050565b600060208201905061089b60008301846106af565b92915050565b60006101008201905081810360008301526108bc818b6106be565b90506108cb602083018a61067a565b6108d8604083018961067a565b6108e5606083018861078e565b81810360808301526108f781876106be565b905061090660a083018661067a565b61091360c083018561078e565b61092060e08301846106af565b9998505050505050505050565b6000602082019050818103600083015261094681610728565b9050919050565b6000602082019050610962600083018461078e565b92915050565b6000604051905081810181811067ffffffffffffffff8211171561098f5761098e610b3b565b5b8060405250919050565b600067ffffffffffffffff8211156109b4576109b3610b3b565b5b601f19601f8301169050602081019050919050565b600081519050919050565b600082825260208201905092915050565b600081905092915050565b600082825260208201905092915050565b6000610a0c82610a29565b9050919050565b60008115159050919050565b6000819050919050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000819050919050565b82818337600083830152505050565b60005b83811015610a80578082015181840152602081019050610a65565b83811115610a8f576000848401525b50505050565b6000610aa082610a49565b91507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff821415610ad357610ad2610b0c565b5b600182019050919050565b6000610ae982610af0565b9050919050565b6000610afb82610b7b565b9050919050565b6000819050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b7f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b6000601f19601f8301169050919050565b60008160601b9050919050565b610b9181610a01565b8114610b9c57600080fd5b50565b610ba881610a13565b8114610bb357600080fd5b50565b610bbf81610a49565b8114610bca57600080fd5b5056fea26469706673582212207e0b1d4e9a26f2cc1ce75d502896472ec69b293919c5c84294cd674f1428cac964736f6c63430008000033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 16,
+        "contract": "contracts/BouncerProxy.sol:BouncerProxy",
+        "label": "nonce",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_mapping(t_address,t_uint256)"
+      },
+      {
+        "astId": 20,
+        "contract": "contracts/BouncerProxy.sol:BouncerProxy",
+        "label": "whitelist",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_mapping(t_address,t_bool)"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_bool": {
+        "encoding": "inplace",
+        "label": "bool",
+        "numberOfBytes": "1"
+      },
+      "t_mapping(t_address,t_bool)": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => bool)",
+        "numberOfBytes": "32",
+        "value": "t_bool"
+      },
+      "t_mapping(t_address,t_uint256)": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => uint256)",
+        "numberOfBytes": "32",
+        "value": "t_uint256"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}
